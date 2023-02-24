@@ -263,7 +263,7 @@ class MatchGameApp extends Component {
   }
 
   componentDidMount() {
-    this.timerID = setInterval(this.tick, 100)
+    this.timerID = setInterval(this.tick, 1000)
   }
 
   //   componentWillUnmount() {
